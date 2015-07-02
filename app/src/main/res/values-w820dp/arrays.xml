@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="range">
+        <item>Place in 5000m</item>
+        <item>Place in 2000m</item>
+    </string-array>
+</resources>

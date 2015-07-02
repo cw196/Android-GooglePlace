@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:id="@+id/Title"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"/>
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="User:"
+        android:id="@+id/Email_text"
+        android:layout_below="@id/Title"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:textSize="15dp"
+        android:textColor="#000000"/>
+
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:hint="User name"
+        android:id="@+id/Email_edit"
+        android:layout_below="@id/Title"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:textSize="15dp"
+        android:textColor="#000000"/>
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Password:"
+        android:id="@+id/Password_text"
+        android:layout_below="@id/Email_text"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:textSize="15dp"
+        android:textColor="#000000"/>
+
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:hint="Password"
+        android:password="true"
+        android:id="@+id/Password_edit"
+        android:layout_below="@id/Email_edit"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:textSize="15dp"
+        android:textColor="#000000"/>
+
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:text="Login"
+        android:id="@+id/Login"
+        android:layout_below="@+id/Password_edit"
+        android:layout_marginTop="20dp"
+        android:textSize="13dp"
+        android:textColor="#000000"
+        android:onClick="LoginIdentify"/>
+
+</RelativeLayout>
+
